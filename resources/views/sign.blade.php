@@ -79,7 +79,7 @@
 
           <p class="mt-10 text-center text-sm text-gray-600 font-semibold">
             Don’t have an account yet ?  
-           <a href="#" class="font-semibold leading-6 text-green hover:text-green-800">Create an account </a>
+           <a href="{{ url('/signup') }}" class="font-semibold leading-6 text-green hover:text-green-800">Create an account </a>
           </p>
         </div>
 
