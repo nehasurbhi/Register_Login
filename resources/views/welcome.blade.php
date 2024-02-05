@@ -9,6 +9,8 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>  
 
         <!-- Styles -->
         <style>
@@ -136,5 +138,8 @@
                 </div>
             </div>
         </div>
+        <a href="{{ url('/get-pdf') }}">
+     <button class="bg-blue-600 text-white">Download Invoice</button>
+     </a> 
     </body>
 </html>
