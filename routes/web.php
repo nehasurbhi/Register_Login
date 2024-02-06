@@ -29,3 +29,5 @@ Route::get('/sign', function () {
 
 Route::get('/get-pdf', [DomPdfController::class, 'getpdf']);
 
+
+
