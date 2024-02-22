@@ -23,3 +23,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //     return $data ;
 // });
 Route::post('/signup/create', [RegisterController::class, 'create']);
+Route::post('/sign/login',  [RegisterController::class, 'signin']);

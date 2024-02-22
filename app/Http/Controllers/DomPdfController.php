@@ -15,6 +15,7 @@ class DomPdfController extends Controller
         ];
         $pdf = PDF::loadView('Invpdf', $data);
 
-        return $pdf->download('Invoicepdf.pdf');
+        // return $pdf->download('Invoicepdf.pdf');
+        return $pdf->stream();
     }
 }
